@@ -1,0 +1,53 @@
+body 
+{ 
+    font-size: 20;
+    font-family: 'Times New Roman';
+    background-color: rgb(234, 241, 145);
+}
+.white_text
+{
+    color: white;
+}
+.big_text
+{
+    font-size: 40;
+}
+.green_text
+{
+    color: green;
+}
+.header
+{
+    color: rgb(57, 39, 0);
+    text-align: justify
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(146, 90, 45);
+  }
+  
+.menu {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: rgb(57, 39, 0);
+    
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #884b22;
+  }
+  .border
+  {
+    border-style: dashed;
+    border-color: blue;
+  }
