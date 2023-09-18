@@ -56,3 +56,11 @@ li a {
     border-style: solid;
     border-color: rgb(154, 113, 69);
   }
+  #bordertwo {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 8px;
+    max-width: 50%; /* Set a maximum width of 50% of the page */
+    height: 82vh;
+}
