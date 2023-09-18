@@ -46,8 +46,13 @@ li a {
   li a:hover {
     background-color: #884b22;
   }
-  .border
+  .border1
   {
     border-style: dashed;
     border-color: blue;
+  }
+  .border2
+  {
+    border-style: solid;
+    border-color: rgb(154, 113, 69);
   }
