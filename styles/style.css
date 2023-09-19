@@ -70,7 +70,16 @@ li a {
   text-align: center;
   color: rgb(146, 90, 45);
   }
-  .sidetext
-  {
-    text-align: right;
-  }
+  /* Additional inline style for positioning */
+  .sidetext {
+    float: right; /* Floats the div to the right */
+    width: calc(50% - 10px); /* Calculates the width for equal spacing */
+    margin-left: 20px; /* Adds some margin between the div and the images */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end; /* Align items to the right */
+}
+
+.sidetext h3, .sidetext p {
+    margin: 0; /* Remove default margins for h3 and p */
+}
