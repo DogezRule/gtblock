@@ -83,3 +83,9 @@ li a {
 .sidetext h3, .sidetext p {
     margin: 0; /* Remove default margins for h3 and p */
 }
+.sideimage {
+  max-width: 50%; /* Set a maximum width for the images */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block;
+  vertical-align: top;
+}
