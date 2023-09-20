@@ -24,11 +24,15 @@ body
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(146, 90, 45);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(146, 90, 45);
+  position: fixed;
+  top: 0;
+  z-index: 1; /* Higher z-index */
   }
   
 .menu {
@@ -57,12 +61,13 @@ li a {
     border-color: rgb(154, 113, 69);
   }
   #bordertwo {
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 8px;
-    max-width: 100%;
-    height: 82vh;
-    padding: 10px; /* Add padding to create space between border and content */
+    max-width: calc(100% - 20px); /* Adjusted width */
+    margin: 60px auto 0; /* Added margin and centered */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 8px solid rgb(0, 0, 0);
+    position: relative;
+    z-index: 0;
 }
 
   .middleheader
@@ -94,4 +99,12 @@ li a {
   height: auto;
   flex: 0 0 calc(50% - 10px); /* Each image takes up half of the container with some spacing */
   margin: 5px;
+}
+h1, h2, h3
+{
+  color:rgb(146, 90, 45)
+}
+.fixcolor
+{
+  color: rgb(57, 39, 0)
 }
