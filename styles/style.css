@@ -63,7 +63,8 @@ li a {
   #bordertwo {
     max-width: calc(100% - 20px); /* Adjusted width */
     margin: 60px auto 0; /* Added margin and centered */
-    padding: 10px;
+    padding: 0px;
+    margin-top:150px;
     box-sizing: border-box;
     border: 8px solid rgb(0, 0, 0);
     position: relative;
